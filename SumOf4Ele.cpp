@@ -70,8 +70,7 @@ void findPairSum(int *a, int n)
 				sum_found = linearSearch(a, i, key);
 				if (sum_found)
 					break;
-				else
-					continue;
+				continue;
 			}
 		}
 		if (sum_found)
