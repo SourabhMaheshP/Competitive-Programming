@@ -62,7 +62,10 @@ void findPairSum(int *a, int n)
 			int sum = a[i] + a[j];
 			key = sum - a[j + 1];
 			if (key > max && key > 0)
-				i++, break;
+			{
+				i++;
+				break;
+			}
 			else if (key <= 0)
 				continue;
 			else
