@@ -28,12 +28,6 @@ void findSubstr(string s)
                     leftsum += ri(s[x]);
                 for(int x=mid+1;x<=j;x++)
                     rightsum += ri(s[x]);
-                // for (int k =0; k < j /2; k++) 
-                //  { 
-                //     leftsum += (s[i+k]-'0'); 
-                //     rightsum += (s[i+k+j/2]-'0'); 
-                // } 
-                
                 if(leftsum == rightsum)
                 {
                     cout << "max even length found " << ((elen % 2 == 0) ? elen : elen-1 );   
