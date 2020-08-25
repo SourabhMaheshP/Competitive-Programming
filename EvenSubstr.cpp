@@ -3,6 +3,7 @@
 //optimize solution [hint] : use DP
 
 #include<iostream>
+#include<string>
 using namespace std;
 int ri(char c)
 {
